@@ -7,17 +7,17 @@
 
 int main()
 {
-    float num, root;
+    float num=144, root;
 
     /* Input a number from user */
-    printf("Enter any number to find square root: ");
-    scanf("%f", &num);
+   // ("Enter any number to find square root: ");
+//("%f", &num);
 
     /* Calculate square root of num */
     root = sqrt(num);
 
     /* Print the resultant value */
-    printf("Square root of %.2f = %.2f", num, root);
+    ("Square root of %.2f = %.2f", num, root);
 
     return 0;
 }
