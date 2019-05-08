@@ -3,9 +3,9 @@
 
 int main()
 {    
-    float num , cubeRoot;
-    printf("enter a number");
-    scanf("%f",&num);
+    float num=6 , cubeRoot;
+    //printf("enter a number");
+    //scanf("%f",&num);
     
 
     cubeRoot =  cbrt(num);
