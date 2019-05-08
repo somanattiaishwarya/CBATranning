@@ -2,11 +2,14 @@
 #include <math.h>
 
 int main()
-{
-    double num = 6, cubeRoot;
+{    
+    float num , cubeRoot;
+    printf("enter a number");
+    scanf("%f",&num);
+    
 
     cubeRoot =  cbrt(num);
-    printf("Cube root of %lf =  %lf", num, cubeRoot);
+    printf("Cube root of %f =  %f", num, cubeRoot);
 
     return 0;
 }
