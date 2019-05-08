@@ -6,12 +6,12 @@ matrix:
         - clang
         - gcc
       script:  
-        - gcc -o test test.c 
-        - ./test
-        - gcc -o fact fact.c
-        - ./fact
-        - gcc -o demo demo.c
-        - ./demo
+        - gcc -o abhijit abhijit.c 
+        - ./abhijit
+        - gcc -o pooja pooja.c
+        - ./pooja
+        - gcc -o aish aish.c
+        - ./aish
     - language: cpp  
       compiler: gcc  
       dist: trusty  
