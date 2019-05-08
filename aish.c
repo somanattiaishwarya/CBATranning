@@ -1,24 +1,27 @@
-/**
- * C program to find square root of a number
- */
-
 #include <stdio.h>
-#include <math.h>
-
+ 
 int main()
 {
-    float num=144, root;
-
-    /* Input a number from user */
-   // ("Enter any number to find square root: ");
-//("%f", &num);
-
-    /* Calculate square root of num */
-    root = sqrt(num);
-
-    /* Print the resultant value */
-    ("Square root of %.2f = %.2f", num, root);
-
-    return 0;
+  int n=4, first = 0, second = 1, next, c;
+ 
+  //printf("Enter the number of terms\n");
+  //scanf("%d", &n);
+ 
+  printf("First %d terms of Fibonacci series are:\n", n);
+ 
+  for (c = 0; c < n; c++)
+  {
+    if (c <= 1)
+      next = c;
+    else
+    {
+      next = first + second;
+      first = second;
+      second = next;
+    }
+    printf("%d\n", next);
+  }
+ 
+  return 0;
 }
 
